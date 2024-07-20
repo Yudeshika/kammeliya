@@ -1,0 +1,15 @@
+{
+  "name": "kammeliya",
+  "version": "1.0.0",
+  "description": "Plugin for some one who lazy enough to publish your Portfolio works but you works really hard behind the scene",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "exports": { ".": "index.js" },
+  "author": "Yudeshika Hettige",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
