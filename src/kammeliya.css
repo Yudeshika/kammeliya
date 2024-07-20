@@ -1,0 +1,65 @@
+/* Floating button styles */
+.kammeliya-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 24px; /* Adjust icon size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .kammeliya-button i {
+    margin: 0; /* Adjust icon margin if needed */
+  }
+  
+  /* Popup container styles */
+  .kammeliya-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: 90vw;
+    max-height: 80vh;
+    overflow: auto;
+  }
+  
+  /* Image styles in the popup */
+  .kammeliya-popup img {
+    max-width: 100%;
+    max-height: 60vh;
+  }
+  
+  /* Button styles in the popup */
+  .kammeliya-popup-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+  
+  .kammeliya-popup-button.cancel {
+    background-color: #FF4136;
+  }
+  
+  .kammeliya-popup-button.accept {
+    background-color: #2ECC40;
+  }
+  

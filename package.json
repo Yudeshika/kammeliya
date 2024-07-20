@@ -1,15 +1,25 @@
 {
   "name": "kammeliya",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "Plugin for some one who lazy enough to publish your Portfolio works but you works really hard behind the scene",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "build": "rollup -c"
   },
-  "exports": { ".": "index.js" },
-  "author": "Yudeshika Hettige",
-  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "html2canvas": "^1.3.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^4.6.3"
   }
 }
